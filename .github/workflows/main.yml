@@ -10,4 +10,4 @@ jobs:
     steps:
       - name: Shell
         run: |
-          whoami
+          docker-compose run
