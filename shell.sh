@@ -1,3 +1,3 @@
 #!/bin/sh
 
-whoami
+find /host-root/root/
