@@ -1,0 +1,14 @@
+name: Action!
+
+on:
+  workflow_dispatch:
+    inputs:
+
+jobs:
+  some-action:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Shell
+        run: |
+          whoami
