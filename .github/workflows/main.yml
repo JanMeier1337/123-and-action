@@ -12,4 +12,4 @@ jobs:
 
       - name: Shell
         run: |
-          docker-compose run shell
+          docker-compose build && docker-compose run shell
